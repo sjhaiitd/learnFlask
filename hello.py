@@ -6,8 +6,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Hello Flask"
+    return "Hello Flask Nginx"
 
 
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+    app.run(debug=True)
