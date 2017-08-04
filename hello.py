@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/flask")
 def index():
-    return "Hello Flask Nginx"
+    return "Hello Flask Nginx 04-Aug-2017"
 
 
 @app.route("/jinja")
