@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/flask")
 def index():
-    return "<html><head><title>Hi there!</title></head><body>Hello World!</body></html>", 200
+    return "<html><head><title>Hi there!</title></head><body>Hello World!</body></html>"
 
 
 @app.route("/jinja")
