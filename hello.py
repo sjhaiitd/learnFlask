@@ -1,12 +1,11 @@
-# First Flask Project
 from flask import Flask
-from flask import render_template
-
 app = Flask(__name__)
 
-@app.route("/flask")
-def index():
-    return "Hello Nginx World 05Aug2017"
 
-if __name__ == '__main__':
-    app.run(debug=True)
+@app.route("/")
+def hello():
+    return "<h1 style='color:blue'>Hello There!</h1>"
+
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0')
